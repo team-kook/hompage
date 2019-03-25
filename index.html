@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="utf-8" />
-    <title>KOOK</title>
+    <title>kOOk</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 1em;
+            background-color: aliceblue;
+        }
+
+        #logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            cursor: pointer;
+        }
+
+        #logo:hover {
+            content:url('logo_weird.svg');
+            cursor: pointer;
+
+            transform: translate(-50%, -50%) scale(1.2, 1.2);
+            transition: transform 2s;
+        }
+
+        .tag:hover {
+            font-size: 1.2em;
+            transition: font-size 1s;
+        }
+    </style>
 </head>
-
 <body> 
-    KOOK 홈페이지입니다.
-</body>
+    <img id="logo" src="logo.svg" />
 
+</body>
 </html>
