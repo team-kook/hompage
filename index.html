@@ -3,41 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>kOOk</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            padding: 1em;
-            background-color: aliceblue;
-        }
-
-        #logo {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-
-            transform: translate(-50%, -50%);
-
-            cursor: pointer;
-        }
-
-        #logo:hover {
-            content:url('logo_weird.svg');
-            cursor: pointer;
-
-            transform: translate(-50%, -50%) scale(1.2, 1.2);
-            transition: transform 2s;
-        }
-
-        .tag:hover {
-            font-size: 1.2em;
-            transition: font-size 1s;
-        }
-    </style>
+    <link href = "style.css" rel="stylesheet" />
+    <script src="script.js"></script>
 </head>
 <body> 
     <img id="logo" src="logo.svg" />
