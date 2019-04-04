@@ -8,12 +8,36 @@ body {
     background-color: aliceblue;
 }
 
-#logo {
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+#logo {
+    display: block;
+    position: relative;
 
     cursor: pointer;
 }
+
+#eye-left {
+    position: relative;
+    top: -267px;
+    left: 191px; /* origin */
+
+    transform: translate(11px, 0px);
+}
+
+#eye-right {
+    position: relative;
+    top: -267px;
+    left: 350px; /* origin */
+
+    transform: translate(11px, 0px);
+}
+
+/* -257, 184 */
+/* -267, 191 */
